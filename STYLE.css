@@ -1,0 +1,25 @@
+.nom  a{
+    text-decoration: none;
+}
+header{
+    display: inline-flex;
+}
+.dot{
+    background-color: aqua;
+    border: 1px solid;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+.right , .left{
+    list-style-type: none;
+}
+.right li , .left li{
+    display: inline-block;
+}
